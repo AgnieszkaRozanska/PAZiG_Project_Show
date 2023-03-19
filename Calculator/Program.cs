@@ -11,6 +11,9 @@ namespace Calculator
 
             double result = operations.Add(5, 10);
             Console.WriteLine($"Result: {result}");
+
+            double resultMultiplication = operations.Multiplication(5, 10);
+            Console.WriteLine($"Result: {resultMultiplication}");
             Console.ReadLine();
         }
     }
