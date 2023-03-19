@@ -13,5 +13,10 @@ namespace Calculator.Services
         {
             return firstValue - secondValue;
         }
+
+        public double Multiplication(double firstValue, double secondValue)
+        {
+            return firstValue * secondValue;
+        }
     }
 }

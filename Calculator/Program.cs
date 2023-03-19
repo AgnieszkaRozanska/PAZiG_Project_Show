@@ -14,6 +14,9 @@ namespace Calculator
 
             double resultSubtraction = operations.Subtraction(5, 10);
             Console.WriteLine($"Result: {resultSubtraction}");
+
+            double resultMultiplication = operations.Multiplication(5, 10);
+            Console.WriteLine($"Result: {resultMultiplication}");
             Console.ReadLine();
         }
     }
