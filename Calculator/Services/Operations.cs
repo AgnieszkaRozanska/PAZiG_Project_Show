@@ -8,5 +8,10 @@ namespace Calculator.Services
         {
             return firstValue + secondValue;
         }
+
+        public double Subtraction(double firstValue, double secondValue)
+        {
+            return firstValue - secondValue;
+        }
     }
 }

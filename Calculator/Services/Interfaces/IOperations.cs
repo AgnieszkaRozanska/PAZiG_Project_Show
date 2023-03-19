@@ -3,5 +3,7 @@
     internal interface IOperations
     {
         double Add(double firstValue, double secondValue);
+
+        double Subtraction(double firstValue, double secondValue);
     }
 }
